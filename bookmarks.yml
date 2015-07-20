@@ -1,0 +1,70 @@
+- place_name: 1001 Arlington Blvd, Ft Myer, 22211, Virginia, United States
+  zoom: 14
+  center: 
+    - 38.88622266187655
+    - -77.06342697143555
+  tags: 
+    - userbookmark
+  index: 0
+- place_name: Kathmandu, Bagmati, Nepal
+  zoom: 13
+  center: 
+    - 27.70070384515311
+    - 85.31707750000004
+  tags: 
+    - userbookmark
+  index: 1
+- place_name: Dar-Es-Salaam, Tanzania
+  zoom: 17
+  center: 
+    - -6.797995969399806
+    - 39.24469828605652
+  tags: 
+    - userbookmark
+  index: 2
+- place_name: Kathmandu, Bagmati, Nepal
+  zoom: 15
+  center: 
+    - 27.711152555381723
+    - 85.29012680053711
+  tags: 
+    - userbookmark
+  index: 3
+- place_name: Bagmati, Nepal
+  zoom: 16
+  center: 
+    - 27.88335287984233
+    - 85.55570840835571
+  tags: 
+    - userbookmark
+  index: 4
+- place_name: Bagmati, Nepal
+  zoom: 16
+  center: 
+    - 27.88335287984233
+    - 85.55570840835571
+  tags: 
+    - userbookmark
+  index: 5
+- place_name: Bagmati, Nepal
+  zoom: 15
+  center: 
+    - 27.83049940888118
+    - 85.56650161743164
+  tags: 
+    - userbookmark
+  index: 6
+- place_name: Narayani, Nepal
+  zoom: 16
+  center: 
+    - 27.55407131312274
+    - 85.13526678085327
+  tags: 
+    - userbookmark
+- place_name: Nairobi, Nairobi, Kenya
+  zoom: 16
+  center: 
+    - -1.3224905478538445
+    - 36.812589168548584
+  tags: 
+    - userbookmark

@@ -1,0 +1,69 @@
+_prefs: 
+  baselayer: ''
+  mapid: aarondennis.humanitarian
+  saveCenter: false
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "&copy; <a href='https://americanredcross.github.io' target='_blank'>American Red Cross</a> <a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85
+  - 180
+  - 85
+center: 
+  - 85.5748
+  - 27.8237
+  - 15
+description: "Map style based off of OpenStreetMap data and designed for humanitarian aid. CURRENT DATA: Central America"
+format: jpeg80
+interactivity_layer: ''
+layers: 
+  - landcover
+  - landuse
+  - site
+  - contour.line
+  - hillshade
+  - waterway
+  - water
+  - barrier_line
+  - building
+  - building_condition
+  - landuse_overlay
+  - tunnel
+  - road
+  - bridge
+  - road_condition
+  - aeroway
+  - sanitation
+  - water_source
+  - emergency
+  - medical
+  - communication
+  - electric_utility
+  - admin
+  - country_label_line
+  - country_label
+  - marine_label
+  - state_label
+  - place_label
+  - water_label
+  - poi_label
+  - hdm_label
+  - road_label
+  - waterway_label
+  - housenum_label
+  - contour.label
+maxzoom: 22
+minzoom: 1
+name: Humanitarian Map
+source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5,aarondennis.humanitarian-data-model-v1"
+styles: 
+  - vars.mss
+  - bg.mss
+  - road.mss
+  - label.mss
+  - poi_classic.mss
+  - terrain.mss
+  - hdm.mss
+template: ''
