@@ -337,28 +337,28 @@
     text-transform: uppercase;
     text-face-name: @sans;
     text-character-spacing: -0.5;
-    text-halo-radius: 0.9;
+    text-halo-radius: 1.2;
     text-halo-fill: #fff;
     text-halo-rasterizer: fast;
     text-size: 10;
     text-dy: -11;
+    text-wrap-width: 26;
+    text-line-spacing: -6;
     [zoom>=19] { 
       text-allow-overlap: true;
-      text-line-spacing: -4;
-      text-wrap-width: 13;
     }
   }
   ::name [zoom>=16] {
     text-name: '[name]';
     text-transform: capitalize;
     text-face-name: @sans_italic;
-    text-halo-radius: 0.9;
+    text-halo-radius: 1.2;
     text-halo-fill: #fff;
     text-halo-rasterizer: fast;
     text-size: 10;
     text-dy: 11;
-    text-wrap-width: 24;
-    text-line-spacing: -2;
+    text-wrap-width: 26;
+    text-line-spacing: -6;
     [zoom>=19] { 
       text-allow-overlap: true;
     }
@@ -369,7 +369,7 @@
     text-fill: #333;
     text-opacity: 0.8;
     text-halo-fill: #fff;
-    text-halo-radius: 0.9;
+    text-halo-radius: 1.2;
     text-halo-opacity: 0.8;
     text-transform: uppercase;
     text-allow-overlap: true;

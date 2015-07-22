@@ -26,17 +26,13 @@
       text-face-name: @sans_italic;
       text-size: 10;
       text-fill: #000;
-      text-halo-radius: 0.9;
-      text-wrap-width: 70;
-      text-line-spacing:	-2;
-      text-wrap-width: 22;
+      text-halo-radius: 1.2;
+      text-wrap-width: 26;
+      text-line-spacing: -6;
       [maki!=null] { 
         text-dy: 8;
         [zoom>=19] { 
           text-allow-overlap: true;
-          text-size: 10;
-          text-line-spacing: -4;
-          text-wrap-width: 15;
         }
       }
     }

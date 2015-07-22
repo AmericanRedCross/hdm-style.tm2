@@ -15,7 +15,7 @@ center:
   - 85.5748
   - 27.8237
   - 15
-description: "Map style based off of OpenStreetMap data and designed for humanitarian aid. CURRENT DATA: Central America"
+description: "Map style based off of OpenStreetMap data and designed for humanitarian aid. CURRENT DATA: Philippines, Kathmandu, Liberia, Port-au-Prince"
 format: jpeg80
 interactivity_layer: ''
 layers: 

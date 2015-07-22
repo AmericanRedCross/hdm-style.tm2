@@ -6,7 +6,7 @@
   <Parameter name="attribution"><![CDATA[&copy; <a href='https://americanredcross.github.io' target='_blank'>American Red Cross</a> <a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85,180,85</Parameter>
   <Parameter name="center">85.5748,27.8237,15</Parameter>
-  <Parameter name="description"><![CDATA[Map style based off of OpenStreetMap data and designed for humanitarian aid. CURRENT DATA: Central America]]></Parameter>
+  <Parameter name="description"><![CDATA[Map style based off of OpenStreetMap data and designed for humanitarian aid. CURRENT DATA: Philippines, Kathmandu, Liberia, Port-au-Prince]]></Parameter>
   <Parameter name="format">jpeg80</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">1</Parameter>
@@ -15,27 +15,27 @@
 </Parameters>
 
 <FontSet name="fontset-0">
-  <Font face-name="Akzidenz-Grotesk Std Bold"/>
+  <Font face-name="DIN Offc Pro Black"/>
   <Font face-name="Open Sans Bold"/>
   <Font face-name="Arial Unicode MS Regular"/>
 </FontSet>
 <FontSet name="fontset-1">
-  <Font face-name="Akzidenz-Grotesk Std Italic"/>
+  <Font face-name="DIN Offc Pro Medium Italic"/>
   <Font face-name="Open Sans Italic"/>
   <Font face-name="Arial Unicode MS Regular"/>
 </FontSet>
 <FontSet name="fontset-2">
-  <Font face-name="Akzidenz-Grotesk Std Regular"/>
+  <Font face-name="DIN Offc Pro Medium"/>
   <Font face-name="Open Sans Regular"/>
   <Font face-name="Arial Unicode MS Regular"/>
 </FontSet>
 <FontSet name="fontset-3">
-  <Font face-name="Akzidenz-Grotesk Std Medium"/>
+  <Font face-name="DIN Offc Pro Bold"/>
   <Font face-name="Open Sans Semibold"/>
   <Font face-name="Arial Unicode MS Regular"/>
 </FontSet>
 <FontSet name="fontset-4">
-  <Font face-name="Akzidenz-Grotesk Std Medium Italic"/>
+  <Font face-name="DIN Offc Pro Bold Italic"/>
   <Font face-name="Open Sans Semibold Italic"/>
   <Font face-name="Arial Unicode MS Regular"/>
 </FontSet>
@@ -11681,317 +11681,317 @@
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer allow-overlap="true" size="10" line-spacing="-4" wrap-width="15" dy="8" fontset-name="fontset-4" fill="#000000" halo-radius="0.9" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer allow-overlap="true" size="10" line-spacing="-4" wrap-width="15" dy="8" fontset-name="fontset-4" fill="#000000" halo-radius="0.9" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer allow-overlap="true" size="10" line-spacing="-4" wrap-width="15" dy="8" fontset-name="fontset-4" fill="#000000" halo-radius="0.9" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([maki] != null) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 4) and ([localrank] &lt;= 2) and ([maki] != null)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 4) and ([localrank] &lt;= 2) and ([maki] != null)</Filter>
-    <TextSymbolizer allow-overlap="true" size="10" line-spacing="-4" wrap-width="15" dy="8" fontset-name="fontset-4" fill="#000000" halo-radius="0.9" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 4) and ([localrank] &lt;= 2) and ([maki] != null)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer allow-overlap="true" size="10" line-spacing="-4" wrap-width="15" dy="8" fontset-name="fontset-4" fill="#000000" halo-radius="0.9" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer allow-overlap="true" size="10" line-spacing="-4" wrap-width="15" dy="8" fontset-name="fontset-4" fill="#000000" halo-radius="0.9" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 3) and ([maki] != null)</Filter>
-    <TextSymbolizer allow-overlap="true" size="10" line-spacing="-4" wrap-width="15" dy="8" fontset-name="fontset-4" fill="#000000" halo-radius="0.9" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 3) and ([maki] != null)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 3) and ([maki] != null)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null)</Filter>
-    <TextSymbolizer allow-overlap="true" size="10" line-spacing="-4" wrap-width="15" dy="8" fontset-name="fontset-4" fill="#000000" halo-radius="0.9" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([maki] != null)</Filter>
-    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer dy="8" fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([localrank] &lt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
     <MinScaleDenominator>2500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 4) and ([localrank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 4) and ([localrank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MinScaleDenominator>12500</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 2)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([maki] != 'hospital') and ([type] != 'Clinic')</Filter>
-    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="0.9" wrap-width="70" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-4" size="10" fill="#000000" halo-radius="1.2" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Style name="poi_label-icon" filter-mode="first">
@@ -12155,30 +12155,30 @@
 <Style name="hdm_label-name" filter-mode="first">
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
-    <TextSymbolizer allow-overlap="true" text-transform="capitalize" fontset-name="fontset-4" halo-radius="0.9" halo-fill="#ffffff" halo-rasterizer="fast" size="10" dy="11" wrap-width="24" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" text-transform="capitalize" fontset-name="fontset-4" halo-radius="1.2" halo-fill="#ffffff" halo-rasterizer="fast" size="10" dy="11" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
-    <TextSymbolizer text-transform="capitalize" fontset-name="fontset-4" halo-radius="0.9" halo-fill="#ffffff" halo-rasterizer="fast" size="10" dy="11" wrap-width="24" line-spacing="-2" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer text-transform="capitalize" fontset-name="fontset-4" halo-radius="1.2" halo-fill="#ffffff" halo-rasterizer="fast" size="10" dy="11" wrap-width="26" line-spacing="-6" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Style name="hdm_label-label" filter-mode="first">
   <Rule>
     <MaxScaleDenominator>1500</MaxScaleDenominator>
     <Filter>([layer] != 'building_condition') and ([class] != 'camp') and ([tag] != 'emergency:helipad=potential') and ([layer] != 'sanitation')</Filter>
-    <TextSymbolizer allow-overlap="true" line-spacing="-4" wrap-width="13" text-transform="uppercase" fontset-name="fontset-3" character-spacing="-0.5" halo-radius="0.9" halo-fill="#ffffff" halo-rasterizer="fast" size="10" dy="-11" ><![CDATA[[class]]]></TextSymbolizer>
+    <TextSymbolizer allow-overlap="true" text-transform="uppercase" fontset-name="fontset-3" character-spacing="-0.5" halo-radius="1.2" halo-fill="#ffffff" halo-rasterizer="fast" size="10" dy="-11" wrap-width="26" line-spacing="-6" ><![CDATA[[class]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <MinScaleDenominator>1500</MinScaleDenominator>
     <Filter>([layer] != 'building_condition') and ([class] != 'camp') and ([tag] != 'emergency:helipad=potential') and ([layer] != 'sanitation')</Filter>
-    <TextSymbolizer text-transform="uppercase" fontset-name="fontset-3" character-spacing="-0.5" halo-radius="0.9" halo-fill="#ffffff" halo-rasterizer="fast" size="10" dy="-11" ><![CDATA[[class]]]></TextSymbolizer>
+    <TextSymbolizer text-transform="uppercase" fontset-name="fontset-3" character-spacing="-0.5" halo-radius="1.2" halo-fill="#ffffff" halo-rasterizer="fast" size="10" dy="-11" wrap-width="26" line-spacing="-6" ><![CDATA[[class]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>2500</MaxScaleDenominator>
     <Filter>([tag] = 'emergency:helipad=potential')</Filter>
-    <TextSymbolizer fontset-name="fontset-3" fill="#333333" opacity="0.8" halo-fill="#ffffff" halo-radius="0.9" halo-opacity="0.8" text-transform="uppercase" allow-overlap="true" dy="-13" wrap-width="12" ><![CDATA['¿Potential Helicopter?']]></TextSymbolizer>
+    <TextSymbolizer fontset-name="fontset-3" fill="#333333" opacity="0.8" halo-fill="#ffffff" halo-radius="1.2" halo-opacity="0.8" text-transform="uppercase" allow-overlap="true" dy="-13" wrap-width="12" ><![CDATA['¿Potential Helicopter?']]></TextSymbolizer>
   </Rule>
 </Style>
 <Style name="hdm_label-sanitation" filter-mode="first">
