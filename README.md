@@ -96,3 +96,19 @@ You can change the `mapid`, the identifier where your vector tiles are uploaded 
 ## Generate print maps and download image MBTiles
 
 Use Mapbox Studio's export functionality and tl to create map products suitable for offline use.
+
+### Creating image MBTiles from this Mapbox Studio style.
+
+Install [tl](https://github.com/mojodna/tl).
+
+`npm install tl mbtiles tilelive-http tilelive tilejson`
+
+Adjust your bounding box `-b` (WSEN), min zoom `-z`, and max zoom `-Z` to your area.
+
+```
+tl copy 
+  -z 6 -Z 8 -b "-124.4096 32.5343 -114.1308 42.0095" \
+  tmstyle://./hdm-style.tm2/ mbtiles://./tiles.mbtiles
+```
+
+This will output an MBTiles file that contains static PNG map tiles. You can upload this MBTiles file to Mapbox's hosting services at https://www.mapbox.com/uploads/.
