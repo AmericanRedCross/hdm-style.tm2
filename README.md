@@ -2,6 +2,8 @@
 
 All about high contrast and printability; a Mapbox Studio style designed for humanitarian response that uses a humanitarian data model vector tiles source.
 
+This style and the workflow for generating HDM vector tiles is largely inspired by https://github.com/osmlab/mapbox-studio-humanitarian-print.tm2
+
 1. [About the style](README.md#about-the-style)
 2. [Create your own HDM vector tiles](README.md#create-your-own-hdm-vector-tiles)
 3. [Generate print maps and download image MBTiles](README.md#generate-print-maps-and-download-image-mbtiles)
