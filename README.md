@@ -21,7 +21,14 @@ Using [Mapbox Terrain and Mapbox Streets](https://www.mapbox.com/data-platform/)
 
 ## Create your own HDM vector tiles
 
-This is how you would generate HDM tiles from a .pbf and then upload them to Mapbox.
+Currently, this Mapbox Studio style pulls from HDM vector tiles that cover OSM data for Kathmandu, Central America, and the Philippines.
+
+Follow these steps to use this Mapbox Studio style and to generate vector tiles for your area of interest.
+
+1. Install dependencies
+2. Use the included node-osmium script to generate collections of HDM GeoJSON data from an `osm.pbf` file.
+3. Use Tippecanoe to generate vector MBTiles from HDM GeoJSON data.
+4. Upload vector MBTiles to Mapbox.
 
 ### Dependencies for Mac OS X:
 
