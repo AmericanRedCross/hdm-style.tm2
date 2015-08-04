@@ -3,7 +3,7 @@
 All about high contrast and printability; a Mapbox Studio style designed for humanitarian response that uses a humanitarian data model vector tiles source.
 
 1. [About the style](README.md#about-the-style)
-2. [Roll your own HDM vector tiles](README.md#roll-your-own-hdm-vector-tiles)
+2. [Create your own HDM vector tiles](README.md#create-your-own-hdm-vector-tiles)
 3. [Generate print maps and download image MBTiles](README.md#generate-print-maps-and-download-image-mbtiles)
 
 ## About the style
@@ -19,7 +19,7 @@ Using [Mapbox Terrain and Mapbox Streets](https://www.mapbox.com/data-platform/)
 <img width="1112" alt="screen shot 2015-08-04 at 12 24 46 pm" src="https://cloud.githubusercontent.com/assets/8019997/9067439/6b993bca-3aab-11e5-8e1b-3a2a9bdfd66b.png">
 <img width="1034" alt="screen shot 2015-08-04 at 12 29 52 pm" src="https://cloud.githubusercontent.com/assets/8019997/9067440/6e971860-3aab-11e5-9294-05bd986b02b2.png">
 
-## Roll your own HDM vector tiles
+## Create your own HDM vector tiles
 
 This is how you would generate HDM tiles from a .pbf and then upload them to Mapbox.
 
