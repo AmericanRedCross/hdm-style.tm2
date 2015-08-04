@@ -8,7 +8,16 @@ All about high contrast and printability; a Mapbox Studio style designed for hum
 
 ## About the style
 
-This is about the design.
+The map is designed for print. High contrast and patterns make the map safe for printers of any quality.
+
+The Humanitarian Data Model (HDM) used for this map pulls specific OpenStreetMap (OSM) tags from `osm.pbf` files to provide important humanitarian information that supplements the Mapbox data platform.
+
+Using [Mapbox Terrain and Mapbox Streets](https://www.mapbox.com/data-platform/) vector tile layers provides topgraphic and landcover context for the entire world and constantly updates with roads, buildings, POIs, and more from the OpenStreetMap database.
+
+<img width="1208" alt="screen shot 2015-08-04 at 12 17 16 pm" src="https://cloud.githubusercontent.com/assets/8019997/9067433/6470c110-3aab-11e5-873c-fd19f9b13146.png">
+<img width="1116" alt="screen shot 2015-08-04 at 12 23 49 pm" src="https://cloud.githubusercontent.com/assets/8019997/9067436/68a80234-3aab-11e5-8f6f-aea036631b8a.png">
+<img width="1112" alt="screen shot 2015-08-04 at 12 24 46 pm" src="https://cloud.githubusercontent.com/assets/8019997/9067439/6b993bca-3aab-11e5-8e1b-3a2a9bdfd66b.png">
+<img width="1034" alt="screen shot 2015-08-04 at 12 29 52 pm" src="https://cloud.githubusercontent.com/assets/8019997/9067440/6e971860-3aab-11e5-9294-05bd986b02b2.png">
 
 ## Roll your own HDM vector tiles
 
