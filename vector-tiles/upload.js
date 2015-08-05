@@ -7,7 +7,7 @@ console.log('Starting upload.');
 var progress = upload({
     file: __dirname + '/hdm.mbtiles',
     account: 'aarondennis',
-    accesstoken: 'sk.eyJ1IjoiYWFyb25kZW5uaXMiLCJhIjoiNmViNWUwOGMzZjU3MDU3ZGJjNjI0MjZhZmI2NGYwMDEifQ.cMHGOPpaMovhT8ZoSuVpwQ',
+    accesstoken: 
     mapid: 'aarondennis.humanitarian-data-model-v1'
 });
 
