@@ -1,0 +1,116 @@
+{
+  "water_source": {
+    "class": {
+      "water well": ["man_made=water_well"],
+      "water tower": ["man_made=water_tower"],
+      "water tank": ["man_made=storage_tank", "man_made=water_tank"],
+      "spring": ["natural=spring"],
+      "drinking water": ["amenity=drinking_water"]
+    },
+    "potable": {
+      "yes": ["drinking_water=yes", "amenity=drinking_water"],
+      "no": ["drinking_water=no"]
+    },
+    "pump": {
+      "yes": ["pump=yes"],
+      "manual": ["pump=manual", "pump_type=manual"],
+      "powered": ["pump=powered", "pump_type=powered_network"]
+    }
+  },
+  "medical": {
+    "class": {
+      "hospital": ["amenity=hospital"],
+      "clinic": ["amenity=clinic"],
+      "field hospital": ["health_facility_type=field_hospital", "health_facility:type=field_hospital"],
+      "pharmacy": ["amenity=pharmacy"],
+      "dispensary": ["health_facility_type=dispensary", "health_facility:type=dispensary"],
+      "morgue": ["amenity=mortuary"]
+    }
+  },
+  "sanitation": {
+    "class": {
+      "shower": ["amenity=shower"],
+      "toilet": ["amenity=toilets"],
+      "waste": ["amenity=waste_disposal", "amenity=waste_basket", "landuse=landfill", "amenity=sanitary_dump_station", "man_made=wastewater_plant", "informal=dumpsite"]
+    }
+  },
+  "communication": {
+    "class": {
+      "tower": ["tower:type=communication", "man_made=communications_tower"],
+      "dish": ["man_made=communications_dish"],
+      "notice board": ["amenity=community_information_kiosk", "board_type=notice"]
+    }
+  },
+  "electric_utility": {
+    "class": {
+      "generator": ["power=generator"],
+      "transmission": ["power=tower", "power=pole", "power=line", "power=minor_line"],
+      "distribution": ["power=station", "power=substation", "power=sub_station", "power=transformer"]
+    },
+    "power_source": {
+      "wind": ["generator:source=wind"],
+      "solar": ["generator:source=solar"],
+      "hydro": ["generator:source=hydro"],
+      "gas": ["generator:source=gas"],
+      "coal": ["generator:source=coal"],
+      "biomass": ["generator:source=biomass"],
+      "nuclear": ["generator:source=nuclear"]
+    },
+    "structure": {
+      "tower": ["power=tower"],
+      "pole": ["power=pole"],
+      "line": ["power=line", "power=minor_line"]
+    }
+  },
+  "emergency": {
+    "class": {
+      "medical rescue": ["emergency=ambulance_station", "emergency=defibrillator", "emergency=aed", "medical=aed"],
+      "fire fighter": ["emergency=fire_extinguisher", "emergency=fire_hydrant", "emergency=fire_hose", "emergency=fire_flapper"],
+      "lifeguarding": ["emergency=lifeguard_base", "emergency=lifeguard_platform", "emergency=lifeguard_place"],
+      "assembly point": ["emergency=assembly_point"],
+      "access point": ["emergency=access_point"],
+      "emergency phone": ["emergency=phone"],
+      "emergency siren": ["emergency=siren"],
+      "helicopter": ["aeroway=helipad", "emergency:helipad=potential", "emergency=landing_site"]
+    }
+  },
+  "building_condition": {
+    "class": {
+      "construction": ["building=construction"],
+      "damaged": ["damage=moderate", "damage=extensive", "damage=severe"],
+      "collapsed": ["damage=total", "damage=destroyed", "building=collapsed", "building=collapse", "damage=partially_collapsed", "damage=collapsed"],
+      "flooded": ["damage=flooded"]
+    }
+  },
+  "road_condition": {
+    "class": {
+      "surface": ["surface=unpaved", "smoothness=bad"],
+      "condition": ["condition=bad", "impassable=yes", "bridge=collapsed"],
+      "barrier": ["military=checkpoint", "barrier=checkpoint", "barrier=debris", "barrier=gate"]
+    },
+    "surface": {
+      "unpaved": ["surface=unpaved"],
+      "rough": ["smoothness=bad"]
+    },
+    "condition": {
+      "bad": ["condition=bad"],
+      "impassable": ["impassable=yes"],
+      "collapsed": ["bridge=collapsed"]
+    },
+    "barrier": {
+      "checkpoint": ["military=checkpoint", "barrier=checkpoint"],
+      "debris": ["barrier=debris"],
+      "gate": ["barrier=gate"]
+    }
+  },
+  "site" : {
+    "class": {
+      "shelter": ["amenity=shelter", "shelter=yes"],
+      "camp": ["refugee=yes", "idp:camp_site=spontaneous_camp"],
+      "residential": ["landuse=residential"],
+      "common": ["leisure=common"],
+      "rubble": ["landuse=brownfield"],
+      "landslide": ["hazard=landslide"]
+    }
+  }
+}
