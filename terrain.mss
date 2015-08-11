@@ -34,17 +34,17 @@
       ::pattern {
         [zoom=15] {
           polygon-pattern-file: url('img/pattern/forest-low.png');
-          polygon-pattern-opacity: 0.25;
+          polygon-pattern-opacity: 0.15;
           polygon-pattern-alignment: local;
         }
         [zoom=16] {
           polygon-pattern-file: url('img/pattern/forest-med.png');
-          polygon-pattern-opacity: 0.35;
+          polygon-pattern-opacity: 0.25;
           polygon-pattern-alignment: local;
         }
         [zoom>=17] {
           polygon-pattern-file: url('img/pattern/forest-high.png');
-          polygon-pattern-opacity: 0.4;
+          polygon-pattern-opacity: 0.3;
           polygon-pattern-alignment: local;       
         }
       }

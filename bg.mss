@@ -1,12 +1,3 @@
-// BG.MSS CONTENTS
-// - Background
-// - Land
-// - Waterways, waterareas
-// - Aeroways
-// - Buildings
-// - Barriers
-// - Administrative Boundaries
-
 Map { 
   background-color: @land;
   font-directory: url('font');
@@ -19,19 +10,16 @@ Map {
 #water {
   polygon-fill: @water;
   ::pattern { 
-    polygon-pattern-file: url('img/pattern/wave.png');
-    comp-op: multiply;
+    polygon-pattern-file: url('img/pattern/water.svg');
+    [zoom<10] { polygon-pattern-opacity: 0.2; }
+    [zoom>=10] { polygon-pattern-opacity: 0.4; }
+    polygon-pattern-alignment: local;
+    comp-op: overlay;
   }
   [zoom<=5] {
-    // Below zoom level 5 we use Natural Earth data for water,
-    // which has more obvious seams that need to be hidden.
     polygon-gamma: 0.4;
   }
   ::blur {
-    // This attachment creates a shadow effect by creating a
-    // light overlay that is offset slightly south. It also
-    // create a slight highlight of the land along the
-    // southern edge of any water body.
     polygon-fill: #ffffff;
     comp-op: soft-light;
     image-filters: agg-stack-blur(4,4);

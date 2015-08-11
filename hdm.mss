@@ -1,4 +1,4 @@
-@rubble: #e9808a;
+@rubble: #ff8692;
 @camp: #dac3f4;
 
 // =====================================================================
@@ -47,17 +47,13 @@
 
 #site {
   ::rubble0 [zoom<16]["class"="rubble"] {
-      polygon-fill: @rubble;
-      polygon-opacity: 0.5;
-      image-filters: agg-stack-blur(2,2);
-      image-filters-inflate: true;
+    polygon-fill: @rubble;
+    polygon-opacity: 0.3;
   }
   ::rubble1 [zoom>=16]["class"="rubble"] {
     ::shape {
       polygon-fill: lighten(@rubble, 18);
       polygon-opacity: 0.5;
-      image-filters: agg-stack-blur(2,2);
-      image-filters-inflate: true;
     }
     ::pattern {
       polygon-pattern-file: url('img/humanitarian/site/damage-16.png');
@@ -192,8 +188,9 @@
   polygon-fill: #fff;
   polygon-opacity: 0.5;
   polygon-comp-op: soft-light;
-  line-width: 1.5;
-  line-opacity: 0.6;
+  line-width: 0.8;
+  [zoom>=17] { line-width: 1.8; }
+  line-opacity: 0.7;
   line-color: #ae0011;
   line-join: round;
   line-cap: round;
@@ -227,13 +224,12 @@
 // =====================================================================
 
 #electric_utility {
-  ::transmission_structures [zoom>=12]{
+  ::transmission_structures [zoom>=15]{
     [structure="tower"] {
       [zoom>=12] { marker-width: 5; }
       [zoom>=14] { marker-width: 10; }
       [zoom>=16] { marker-width: 14; }
       marker-file: url('img/humanitarian/electric_utility/electric-tower.svg');
-      marker-opacity: 0.75;
       marker-transform: translate(0,5);
     }
     [structure="pole"] { 
@@ -247,9 +243,12 @@
   ::transmission_lines [zoom>=12]{
     [structure='line'] {
       line-color: black;
-      line-width: 0.8;
-      [zoom>=15] { line-width: 1.2; }
-      line-opacity: 0.75;
+      line-width: 0.7;
+      line-opacity: 0.65;
+      [zoom>=15] { 
+        line-width: 1.2;
+        line-opacity: 0.75;
+      }
     }
    }
   ::stations [zoom>=12]{ 
@@ -295,20 +294,17 @@
     }
     marker-fill: #000000;
     marker-line-color: #fff;
-    marker-line-width: 0.4;
+    marker-line-width: 0.2;
     marker-line-opacity: 0.5;
     marker-height: 9; 
-    marker-opacity: 0.6;
     [zoom>=15] { 
       marker-height: 14;
-      marker-opacity: 0.8;
     }
     [zoom>=16] { 
-      marker-height: 18; 
-      marker-opacity: 1;
+      marker-height: 16; 
     }
-    [zoom>=18] { 
-      marker-height: 20;
+    [zoom>=20] { 
+      marker-height: 18;
       marker-allow-overlap: true; 
     }
   }
@@ -324,7 +320,7 @@
     text-halo-rasterizer: fast;
     text-size: 10;
     text-dy: -11;
-    marker-allow-overlap: true;
+    //marker-allow-overlap: true;
     text-line-spacing: -4;
     text-wrap-width: 13;
    }
@@ -344,7 +340,7 @@
     text-dy: -11;
     text-wrap-width: 26;
     text-line-spacing: -6;
-    [zoom>=19] { 
+    [zoom>=20] { 
       text-allow-overlap: true;
     }
   }
@@ -359,9 +355,6 @@
     text-dy: 11;
     text-wrap-width: 26;
     text-line-spacing: -6;
-    [zoom>=19] { 
-      text-allow-overlap: true;
-    }
   }
   ::label [tag="emergency:helipad=potential"][zoom>=18] {
     text-name: "'¿Potential Helicopter?'";

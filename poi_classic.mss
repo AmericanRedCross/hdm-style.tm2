@@ -11,11 +11,11 @@
     ::icon[maki!=null] {
       marker-fill:#000;
       marker-line-width: 0;
-      [zoom<=15] { 
+      [zoom<19] { 
         marker-file:url('img/maki/[maki]-18.svg'); 
         marker-width: 15; 
       }
-      [zoom>=16] { 
+      [zoom>=19] { 
         marker-file:url('img/maki/[maki]-24.svg'); 
         marker-width: 20;
         marker-ignore-placement: true;
@@ -31,9 +31,6 @@
       text-line-spacing: -6;
       [maki!=null] { 
         text-dy: 8;
-        [zoom>=19] { 
-          text-allow-overlap: true;
-        }
       }
     }
   }
