@@ -25,6 +25,8 @@ Using [Mapbox Terrain and Mapbox Streets](https://www.mapbox.com/data-platform/)
 
 ## Create your own HDM vector tiles
 
+*You can find the scripts for the processing described below in [/vector-tiles/](/vector-tiles/)*
+
 Currently, this Mapbox Studio style pulls from HDM vector tiles that cover OSM data for Kathmandu, Central America, and the Philippines.
 
 Follow these steps to use this Mapbox Studio style and to generate vector tiles for your area of interest.
