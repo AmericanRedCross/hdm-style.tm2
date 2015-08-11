@@ -45,7 +45,11 @@ Follow these steps to use this Mapbox Studio style and to generate vector tiles 
 
 ### Generating Vector MBTiles
 
-After running `./process.js`, if you want to create a vector MBTiles file, install **tippecanoe** with
+First, download an `osm.pbf` file for your region of interest. http://download.geofabrik.de/ provides daily region and country abstracts.
+
+Then run `$ node ./process.js ./your-region-latest.osm.pbf`. Add as many `osm.pbf` as you wish to that command for mapping multiple regions.
+
+After running `./process.js`, if you want to create a vector MBTiles file, install [**tippecanoe**](https://www.github.com/mapbox/tippecanoe/) with
 
 ```
 brew install tippecanoe
@@ -114,6 +118,8 @@ progress.once('finished', function(){
 Save this script above, updated with your access token, into a file `upload.js`, then run `$ chmod u+rwx ./upload.js` and then `$ ./upload.js`.
 
 You can change the `mapid`, the identifier where your vector tiles are uploaded to, by switching out where it says `'humanitarian-data-model'` on line 9 for some other valid `mapid` (like a short string of text, no spaces). 
+
+A writeup on how a constantly updating global HDM vector tiles source might be created is available [here](https://gist.github.com/aaronpdennis/0c658c543f5340236bba).
 
 ## Generate print maps and download image MBTiles
 
